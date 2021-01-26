@@ -4,5 +4,11 @@ spring:
       client:
         registration:
           github:
-            client-id: your-github-client-id
-            client-secret: your-github-client-secret
+            client-id: 10be0bf48914f41ee6cb
+            client-secret: 29abde9f3d70c82e3f238f5e599ba757acc871c3
+          google:
+            client-id: 418438563915-810u6t4q3j5qo0kln32b1hm27o28pih2.apps.googleusercontent.com
+            client-secret: 4NuuPcZKR5yTiE0yR1t3SUgU
+logging:
+  level:
+    org.springframework.security: DEBUG
